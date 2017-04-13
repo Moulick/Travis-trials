@@ -1,7 +1,7 @@
 language: python
 
 before_install:
-  - sudo apt-get -qq update
+  - sudo apt-get update
   - pip install -U pip
 
 python:
