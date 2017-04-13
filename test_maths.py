@@ -2,5 +2,5 @@ import maths
 
 
 def test_square():
-    x = 16
-    assert maths.square(x) == 256
+    assert maths.square(16) == 256
+    assert maths.square(2) == 4
